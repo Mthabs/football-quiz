@@ -4,13 +4,15 @@
     border: none;
 }
 body{
-    background-color: lightgray;
+    background-color: #F3FFFF;
 }
 #logo{
+  color: #2B547E;
     float: left;
     font-size: 280;
     margin-top: 40px;
-    margin-left: 80px;
+    margin-left: 200px;
+    font-size: large;
 }
 #nav-bar{
     font-family: Lato, sans-serif;
@@ -50,12 +52,12 @@ body{
     margin-top: 60px;
 }
 #home{
-    width: 800px;
-    height: 380px;
-    margin: auto;
+    width: 600px;
+    height: 300px;
+    margin: 150px auto 0px;
     border: 1px solid #4FD1C5;
     font-size: 25px;
-    padding: 100px 50px 100px;
+    padding: 50px 50px 200px;
     text-align:center;
     overflow: hidden;
     clear: both;
