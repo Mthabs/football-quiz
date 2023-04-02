@@ -158,3 +158,24 @@ body{
     margin: 50px;
     padding: 80px 0px 80px;
   }
+  #instr-heading{
+    text-align: center;
+    margin-top: 50px;
+  }
+  #instr-body ul{
+    width: 600px;
+    height: 60px;
+    margin: auto;
+    border: 1px groove #F3FFFF;
+    font-size: 24px;
+    padding: 0px 50px 120px;
+    overflow: hidden;
+    clear: both;
+}
+#instr-body h3{
+  text-align: center;
+  font-size: 25px;
+}
+#instr-body li{
+  list-style: '✓  ';
+}
