@@ -2,31 +2,39 @@
     margin: 0;
     padding: 0;
     border: none;
+    
 }
 body{
     background-color: #F3FFFF;
 }
-#logo{
+.headings{
+  position: absolute;
+  width: 1480px;
+  height: 150px;
+  margin: 20px;
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 1px 1px 2px rgba(79,209,197,.64);
+}
+.logo{
     float: left;
     font-size: 280;
-    margin-top: 40px;
-    margin-left: 200px;
-    font-size: large;
+    margin-top: 50px;
+    margin-left: 180px;
     text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
     0px -4px 10px rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 2px rgba(79,209,197,.64);
 }
-#nav-bar{
+.nav-bar{
     font-family: Lato, sans-serif;
     font-size: 110%;
-    margin-top: 50px;
 
 }
-#nav-bar a{
+.nav-bar a{
     text-decoration: none;
     min-width: 300px;
     min-height: 60px;
     font-family: 'Nunito', sans-serif;
-    font-size: 22px;
     text-transform: uppercase;
     letter-spacing: 1.3px;
     font-weight: 700;
@@ -42,15 +50,15 @@ body{
     position: relative;
     padding: 10px;
 }
-#nav-bar:hover, #nav-bar:focus {
+.nav-bar:hover, .nav-bar:focus {
   color: #313133;
   transform: translateY(-6px);
 }
-#nav-bar li{
+.nav-bar li{
     float: right;
     list-style-type: none;
     margin-right: 200px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 #home{
     width: 600px;
@@ -157,6 +165,7 @@ body{
     height: 40px;
     margin: 50px;
     padding: 80px 0px 80px;
+    box-shadow: 5px 5px 10px rgba(79,209,197,.64);
   }
   #instr-heading{
     text-align: center;
